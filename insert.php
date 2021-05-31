@@ -1,3 +1,4 @@
+
 <html>
 <body>
 
@@ -7,6 +8,3 @@ Country: <?php echo $_POST["country"]; ?><br>
 
 </body>
 </html> 
-
-
-
