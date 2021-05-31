@@ -21,10 +21,9 @@ $users = json_decode($data);
             <td> <?= $user->country; ?> </td>
         </tr>
         <?php } ?>
+		<a href="cadastrar.php">cadastrar</a>
+		<a href="remover.php">excluir</a>
+		<a href="atualizar.php">atualizar</a>
     </tbody>
-	
-<a href="cadastrar.php">cadastrar</a>
-<a href="remover.php">excluir</a>
-<a href="atualizar.php">atualizar</a>
 </table>
 </html>
