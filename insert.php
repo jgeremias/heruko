@@ -21,5 +21,5 @@ $json_arr[] = array('name'=>$a, 'occupation'=>$b, 'country'=>$c);
 // encode json and save to file
 file_put_contents('data.json', json_encode($json_arr));
 
-
+header("Location: index.php");
 ?>
