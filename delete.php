@@ -1,4 +1,7 @@
 <?php
+
+$name = $_POST["name"];
+
 // read json file
 $data = file_get_contents('data.json');
 
@@ -9,7 +12,7 @@ $json_arr = json_decode($data, true);
 $arr_index = array();
 foreach ($json_arr as $key => $value)
 {
-    if ($value['name'] == "Jhonatan")
+    if ($value['name'] == $name)
     {
         $arr_index[] = $key;
     }
@@ -26,4 +29,6 @@ $json_arr = array_values($json_arr);
 
 // encode array to json and save to file
 file_put_contents('data.json', json_encode($json_arr));
+
+header("Location: index.php");
 ?>
