@@ -1,7 +1,12 @@
 <?php
 
-echo $_POST["name"];
-echo $_POST["occupation"];
-echo $_POST["country"]; 
+a = $_POST["name"];
+b = $_POST["occupation"];
+c = $_POST["country"]; 
+
+echo $a;
+echo $b;
+echo $c;
+
 
 ?>
