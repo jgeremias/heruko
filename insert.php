@@ -4,7 +4,9 @@ $nome = filter_input(INPUT_POST,'name',FILTER_SANITINE_STRING);
 $occupation = filter_input(INPUT_POST,'occupation',FILTER_SANITINE_STRING);
 $country = filter_input(INPUT_POST,'country',FILTER_SANITINE_STRING);
 
-
+echo $nome
+echo $occupation
+$country
 
 // read json file
 $data = file_get_contents('data.json');
