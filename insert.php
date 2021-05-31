@@ -1,12 +1,12 @@
 <?php
 
-$nome = filter_input(INPUT_POST,'name',FILTER_SANITINE_STRING);
-$occupation = filter_input(INPUT_POST,'occupation',FILTER_SANITINE_STRING);
-$country = filter_input(INPUT_POST,'country',FILTER_SANITINE_STRING);
+$nome = $_POST['name'];
+$occupation = $_POST['occupation'];
+$country = $_POST['country'];
 
 echo $nome
 echo $occupation
-$country
+echo $country
 
 // read json file
 $data = file_get_contents('data.json');
