@@ -2,10 +2,10 @@
 	<head> 
 	</head>
 	<body>
-		<form method="POST" action="insert.php">
-			<label>Nome:<label> <input type="text" name="name">
-			<label>Ocupação:<label> <input type="text" name="occupation">
-			<label>Pais:<label> <input type="text" name="country">
+		<form action="insert.php" method="post">
+			<label>Nome:<label> <input type="text" name="name"><br>
+			<label>Ocupação:<label> <input type="text" name="occupation"><br>
+			<label>Pais:<label> <input type="text" name="country"><br>
 			<input type="submit" value="Cadastrar">
 		</form>
 	</body>
